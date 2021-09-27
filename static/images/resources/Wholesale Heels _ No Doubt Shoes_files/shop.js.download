@@ -1,0 +1,155 @@
+/*============================*/
+/* Customer Address Show/Hide */
+/*============================*/
+function customerAddressForm() {
+
+  var $newAddressForm = $('#AddressNewForm');
+
+  if (!$newAddressForm.length) {
+    return;
+  }
+
+  // Initialize observers on address selectors, defined in shopify_common.js
+  if (Shopify) {
+    // eslint-disable-next-line no-new
+    new Shopify.CountryProvinceSelector(
+      'AddressCountryNew',
+      'AddressProvinceNew',
+      {
+        hideElement: 'AddressProvinceContainerNew'
+      }
+    );
+  }
+
+  // Initialize each edit form's country/province selector
+  $('.js-address-country-option').each(function() {
+    var formId = $(this).data('form-id');
+    var countrySelector = 'AddressCountry_' + formId;
+    var provinceSelector = 'AddressProvince_' + formId;
+    var containerSelector = 'AddressProvinceContainer_' + formId;
+
+    // eslint-disable-next-line no-new
+    new Shopify.CountryProvinceSelector(countrySelector, provinceSelector, {
+      hideElement: containerSelector
+    });
+  });
+
+  // Toggle new/edit address forms
+  $('.js-address-new-toggle').on('click', function() {
+    $newAddressForm.toggleClass('hide');
+  });
+
+  $('.js-address-edit-toggle').on('click', function() {
+    var formId = $(this).data('form-id');
+    $('#EditAddress_' + formId).toggleClass('hide');
+  });
+
+  $('.js-address-delete').on('click', function() {
+    var $el = $(this);
+    var formId = $el.data('form-id');
+    var confirmMessage = $el.data('confirm-message');
+
+    // eslint-disable-next-line no-alert
+    if (
+      confirm(
+        confirmMessage || 'Are you sure you wish to delete this address?'
+      )
+    ) {
+      Shopify.postLink('/account/addresses/' + formId, {
+        parameters: { _method: 'delete' }
+      });
+    }
+  });
+}
+customerAddressForm();
+
+/*=================================*/
+/* Login Forgot Password Show Hide */
+/*=================================*/
+
+$('.js-forgot-toggle').on('click', function() {
+  $('#CustomerLoginForm').toggleClass('hide');
+  $('#RecoverPasswordForm').toggleClass('hide');
+});
+
+/*============================*/
+/* Update main product image. */
+/*============================*/
+var switchImage = function(newImageSrc, newImage, mainImageDomEl) {
+  // newImageSrc is the path of the new image in the same size as originalImage is sized.
+  // newImage is Shopify's object representation of the new image, with various attributes, such as scr, id, position.
+  // mainImageDomEl is the passed domElement, which has not yet been manipulated. Let's manipulate it now.
+  jQuery(mainImageDomEl).parents('a').attr('href', newImageSrc.replace('_grande', '_1024x1024'));
+  jQuery(mainImageDomEl).attr('src', newImageSrc);  
+};
+
+/*============================*/
+/* Swatch JS                  */
+/*============================*/
+jQuery(function() {
+  jQuery('.swatch :radio').change(function() {
+    var optionIndex = jQuery(this).closest('.swatch').attr('data-option-index');
+    var optionValue = jQuery(this).val();
+    jQuery(this)
+      .closest('form')
+      .find('.single-option-selector')
+      .eq(optionIndex)
+      .val(optionValue)
+      .trigger('change');
+  });
+});
+
+jQuery(function($) {
+                    
+  /* Placeholder JS */
+  /*==========================*/
+  var test = document.createElement('input');
+  if (!('placeholder' in test)) {
+    $('[placeholder]').each(function(){
+      if ($(this).val() === '') {
+        var hint = $(this).attr('placeholder');
+        $(this).val(hint).addClass('hint');
+      }
+    });
+    $('[placeholder]').focus(function() {
+      if ($(this).val() === $(this).attr('placeholder')) {
+        $(this).val('').removeClass('hint');
+      }
+    }).blur(function() {
+      if ($(this).val() === '') {
+        $(this).val($(this).attr('placeholder')).addClass('hint');
+      }
+    });    
+  }
+
+  /* Form validation JS */
+  /*==========================*/
+
+  $('input.error, textarea.error').focus(function() {
+    $(this).removeClass('error');
+  });
+
+  $('form :submit').click(function() {
+    $(this).parents('form').find('input.hint, textarea.hint').each(function() {
+      $(this).val('').removeClass('hint');
+    });
+    return true;
+  });
+
+  /* Redirect to Account Page after creating new account */
+  /*==========================*/
+    (function() {
+    var REDIRECT_PATH = '/account';
+
+    var selector = '#create_customer, form[action$="/account"][method="post"]',
+        $form = document.querySelectorAll(selector)[0];
+
+    if ($form) {
+      $redirect = document.createElement('input');
+      $redirect.setAttribute('name', 'return_to');
+      $redirect.setAttribute('type', 'hidden');
+      $redirect.value = REDIRECT_PATH;
+      $form.appendChild($redirect);
+    }
+  })();
+});

